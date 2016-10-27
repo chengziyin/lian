@@ -1,0 +1,39 @@
+@import "common";
+@import "variable";
+
+.mainBody {
+	display:flex;
+	.leftNav {
+		background-color: #f00;
+		margin-left: 40px;
+		width: 10%;
+		height: 315px;
+		ul {
+			list-style: none;
+			li {
+				line-height: 100px;
+				text-align: center;
+				cursor: pointer;
+				&:hover {
+					background-color: gray;
+					a {
+						color: red;
+					}
+				}
+				a {
+					text-decoration: none;
+					font-size: 30px;
+				}
+			}
+		}
+	}
+	.rightContent {
+		background-color: #0f0;
+		margin-left: 50px;
+		width: 80%;
+		height: 500px;
+		#postForm {
+			width: 40%;
+		}
+	}
+}

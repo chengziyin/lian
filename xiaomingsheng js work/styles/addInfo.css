@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+header {
+  height: 50px;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff; }
+
+.mainBody {
+  display: flex; }
+  .mainBody .leftNav {
+    background-color: #f00;
+    margin-left: 40px;
+    width: 10%;
+    height: 315px; }
+    .mainBody .leftNav ul {
+      list-style: none; }
+      .mainBody .leftNav ul li {
+        line-height: 100px;
+        text-align: center;
+        cursor: pointer; }
+        .mainBody .leftNav ul li:hover {
+          background-color: gray; }
+          .mainBody .leftNav ul li:hover a {
+            color: red; }
+        .mainBody .leftNav ul li a {
+          text-decoration: none;
+          font-size: 30px; }
+  .mainBody .rightContent {
+    background-color: #0f0;
+    margin-left: 50px;
+    width: 80%;
+    height: 500px; }
+    .mainBody .rightContent #postForm {
+      width: 40%; }
+
+/*# sourceMappingURL=addInfo.css.map */
